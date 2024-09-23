@@ -1,5 +1,5 @@
 def seg_min(seg):
-    min = seg // 2
+    min = seg / 60
     print(min)
 
 def seg_hor(seg):
