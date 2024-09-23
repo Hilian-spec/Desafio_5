@@ -1,6 +1,6 @@
 import tiempo as t
-#import Masa as m
-#import Temperatura as tem
+import Masa as m
+import Temperatura as tem
 
 def menu_masa():    
     menu_num = int(input("Hola! Bienvenido al menu de conversor de temperatura, seleccione 1 para comenzar: "))
