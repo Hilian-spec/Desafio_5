@@ -296,6 +296,5 @@ def ele_men():
     except ValueError:
         print('ingrese num')
 
-        
 ele_men()
 
