@@ -1,3 +1,4 @@
+
 def Kilo_Gram(num):
     g = num * 1000
     print(f"Los Kilos ingresados equivalen a {g} Gramos.")
