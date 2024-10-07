@@ -288,7 +288,7 @@ def ele_men():
         if elegir == 3:
             menu_tiempo()
         elif elegir == 2:
-            #menu_masa()
+            menu_masa()
             p = 0
         elif elegir == 1:
             menu_temperatura()
