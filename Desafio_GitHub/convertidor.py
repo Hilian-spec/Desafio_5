@@ -25,67 +25,67 @@ def menu_masa():
                     if op == "1":
                         sm = int(input("Ingrese los Kilos: "))
                         m.Kilo_Gram(sm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si deseacambiar de c cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "2":
                         sh = int(input("Ingrese los Kilos: "))
                         m.Kilo_Ton(sh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "3":
                         ms = int(input("Ingrese los Gramos: "))
                         m.Gram_Kilo(ms)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "4":
                         mh = int(input("Ingrese los Gramos: "))
                         m.Gram_Ton(mh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "5":
                         hs = int(input("Ingrese las Toneladas: "))
                         m.Ton_Kilo(hs)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "6":
                         hm = int(input("Ingrese las Toneladas: "))
                         m.Ton_Gram(hm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "7":
@@ -124,23 +124,23 @@ def menu_temperatura():
                     if op == "1":
                         sm = int(input("Ingrese los grados Celsius: "))
                         tem.celsius_fah(sm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "2":
                         sh = int(input("Ingrese los grados Celsius: "))
                         tem.celsius_kel(sh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "3":
@@ -151,40 +151,40 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "4":
                         mh = int(input("Ingrese los grados Fahrenheit: "))
                         tem.fahrenheit_kel(mh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "5":
                         hs = int(input("Ingrese los grados Kelvin: "))
                         tem.kelvin_cel(hs)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "6":
                         hm = int(input("Ingrese los grados Kelvin: "))
                         tem.kelvin_fah(hm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "7":
@@ -224,29 +224,29 @@ def menu_tiempo():
                     if op == "1":
                         sm = int(input("Ingrese los segundos: "))
                         t.seg_min(sm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "2":
                         sh = int(input("Ingrese los segundos: "))
                         t.seg_hor(sh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "3":
                         ms = int(input("Ingrese los minutos: "))
                         t.min_seg(ms)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
@@ -257,34 +257,34 @@ def menu_tiempo():
                     elif op == "4":
                         mh = int(input("Ingrese los minutos: "))
                         t.min_hor(mh)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "5":
                         hs = int(input("Ingrese las horas: "))
                         t.hor_seg(hs)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "6":
                         hm = int(input("Ingrese las horas: "))
                         t.hor_min(hm)
-                        chao = int(input("Si quiere volver [1], si desea retirarse [2]: "))
+                        chao = int(input("Si quiere volver [1], si desea cambiar de convertidor [2]: "))
                         if chao == 1:
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
-                            ele_men()
+                            ele_men2()
                             x = x + 1
                             
                     elif op == "7":
@@ -310,6 +310,23 @@ def ele_men():
             p = 0
         elif elegir == 1:
             menu_temperatura()
+            
+    except ValueError:
+        print('ingrese num')
+
+def ele_men2():
+    elegir = int(input("Escoja su convertidor, temperatura[1], masa[2] o tiempo[3] o desea salir [4]: "))
+    try:
+        if elegir == 3:
+            menu_tiempo()
+        elif elegir == 2:
+            menu_masa()
+            p = 0
+        elif elegir == 1:
+            menu_temperatura()
+        elif elegir == 4:
+            print("Hasta la proxima.")
+            exit()
             
     except ValueError:
         print('ingrese num')
