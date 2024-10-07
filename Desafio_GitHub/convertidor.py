@@ -30,6 +30,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "2":
@@ -40,6 +41,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "3":
@@ -50,6 +52,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "4":
@@ -60,6 +63,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "5":
@@ -70,6 +74,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "6":
@@ -80,6 +85,7 @@ def menu_masa():
                             menu_masa()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "7":
@@ -123,6 +129,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "2":
@@ -133,6 +140,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "3":
@@ -143,6 +151,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "4":
@@ -153,6 +162,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "5":
@@ -163,6 +173,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "6":
@@ -173,6 +184,7 @@ def menu_temperatura():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "7":
@@ -217,6 +229,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "2":
@@ -227,6 +240,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "3":
@@ -237,6 +251,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "4":
@@ -247,6 +262,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "5":
@@ -257,6 +273,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "6":
@@ -267,6 +284,7 @@ def menu_tiempo():
                             menu_tiempo()
                         elif chao == 2:
                             print("Hasta luego.")
+                            ele_men()
                             x = x + 1
                             
                     elif op == "7":
