@@ -3,13 +3,13 @@ import Masa as m
 import Temperatura as tem
 
 def menu_masa():    
-    menu_num = int(input("Hola! Bienvenido al menu de conversor de temperatura, seleccione 1 para comenzar: "))
+    menu_num = int(input("Hola! Bienvenido al menu de conversor de masa, seleccione 1 para comenzar: "))
     x = 1
     if menu_num == 1:
         
         try:
             while x <= 1:
-                    print("---------------MENU TIEMPO----------------")
+                    print("---------------MENU MASA----------------")
                     print("1) Kilos a Gramos")
                     print("2) Kilos a Toneladas")
                     print("3) Gramos a Kilos")
@@ -102,7 +102,7 @@ def menu_temperatura():
         
         try:
             while x <= 1:
-                    print("---------------MENU TIEMPO----------------")
+                    print("---------------MENU TEMPERATURA----------------")
                     print("1) Celsius a Fahrenheit")
                     print("2) Celsius a Kelvin")
                     print("3) Fahrenheit a Celsius")
